@@ -15,5 +15,5 @@ def crc_32(line):
     return hex(int(arr, 2))[2:]
     
 if __name__ == '__main__':
-    line = input('input: ')
-    print('hash', crc_32(line))
+    line = input('input: ') # test
+    print('hash', crc_32(line)) # 749d77bb
