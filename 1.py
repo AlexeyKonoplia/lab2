@@ -9,5 +9,5 @@ def division(s):
         news[i] = hex(key % news[i])[2:].zfill(2)
     return ''.join(news)
 if __name__ == '__main__':
-    s = input('input: ')
-    print(division(s))
+    s = input('input: ') # test
+    print(division(s)) # 749d77bb
