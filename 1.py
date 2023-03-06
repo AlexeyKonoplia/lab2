@@ -10,4 +10,4 @@ def division(s):
     return ''.join(news)
 if __name__ == '__main__':
     s = input('input: ') # test
-    print(division(s)) # 749d77bb
+    print('hash', division(s)) # 749d77bb
